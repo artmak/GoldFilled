@@ -1,0 +1,18 @@
+<div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-warning btn-xs" ng-disabled="true" ng-transclude></a>
+
+</div>
+<div ng-show="attrs.id">
+    <div>
+        <span ng-show="quantityMax">
+            <select name="quantity" id="quantity" ng-model="q"
+                    ng-options=" v for v in qtyOpt"></select>
+        </span>
+        <a class="btn btn-xs btn-warning"
+           ng-click="ngCart.addItem(id, name, price, q, data)"
+           ng-transclude></a>
+    </div>
+    <mark  ng-show="inCart()">
+        Товар уже в крозине. <a class="btn btn-danger btn-xs" ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Удалить<i class="fa fa-cart-arrow-down"></i>?</a>
+    </mark>
+</div>

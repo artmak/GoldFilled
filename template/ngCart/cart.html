@@ -1,0 +1,67 @@
+
+<div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
+    Ваша корзина пустая
+</div>
+<div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0" id="orderCart">
+
+    <table class="table table-striped ngCart cart">
+
+        <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Колличество</th>
+            <th>Цена</th>
+            <th>Всего</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr ng-show="ngCart.getTax()" hidden="">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>НДС ({{ ngCart.getTaxRate() }}%):</td>
+            <td>{{ ngCart.getTax() |  currency:"₴ ":2 }}</td>
+        </tr>
+        <tr ng-show="ngCart.getShipping()">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Доставка:</td>
+            <td>от - {{ ngCart.getShipping() |  currency:"₴ ":2 }}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Всего:</td>
+            <td>{{ ngCart.totalCost() |  currency:"₴ ":2 }}</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr ng-repeat="item in ngCart.getCart().items track by $index">
+            <td><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-minus" title="Удалить из списка"></span></td>
+
+            <td>{{ item.getName() }}</td>
+            <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}"
+                      ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp;
+                {{ item.getQuantity() | number }}&nbsp;&nbsp;
+                <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
+            <td>{{ item.getPrice() |  currency:"₴ ":2}}</td>
+            <td>{{ item.getTotal() |  currency:"₴ ":2 }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <div>
+ 
+			
+    </div>
+</div>
+<style>
+    .ngCart.cart span[ng-click] {
+        cursor: pointer;
+    }
+    .ngCart.cart .glyphicon.disabled {
+        color:#aaa;
+    }
+</style>

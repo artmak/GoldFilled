@@ -1,0 +1,1641 @@
+<!doctype html>
+<html lang="ua" ng-app="GoldFilledStore">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Gold Filled в Украине - ГолдФил в Украине" />
+<meta name="keywords" content="goldfilled, gold-filled, голдфилд, gold filled, год филд, голд-филд, gold filled kiev, год филд киев, gold filled киев, подзолото, накатаное золото, creative, изделия из накатанного золота"/>
+<meta name="author" content="Vadym Makarenko" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gold Filled в Украине</title>
+
+<!-- =========================
+ FAV AND TOUCH ICONS  
+============================== -->
+<link rel="shortcut icon" href="images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+
+<!-- =========================
+     STYLESHEETS      
+============================== -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/jquery.vegas.min.css">
+
+<link rel="stylesheet" href="assets/icon-fonts/styles.css"> 
+<link rel="stylesheet" href="css/pixeden-icons.css"> 
+
+<!-- CUSTOM STYLES -->
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<!-- WEBFONT -->
+
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic|Montserrat:700,400|Homemade+Apple' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+
+<style>
+	        .strike {
+					  text-decoration: line-through;
+					}
+			.bold {
+					    font-weight: bold;
+					}
+			.red {
+					    color: red;
+					}
+					.hidden {
+    display: none;
+}
+.vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.panel.panel-default {
+    max-width: 500px;
+    width: 100%;
+    margin: 0;
+}
+.message {
+    padding: 15px; 
+    margin: 0;
+}
+	          </style>
+
+</head>
+
+
+<body ng-controller="StoreController">
+<!-- =========================
+   PRE LOADER       
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+<!-- =========================
+   HOME SECTION       
+============================== -->
+<header id="home" class="header">
+	
+	<!-- TOP BAR -->
+	<div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
+		<div class="container">
+			<div class="navbar-header responsive-logo">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a href="./" class="navbar-brand">
+				<img src="images/logo.png" alt="Zerif">
+				</a>
+			</div>
+			<nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" style="height: 1px;">
+			<ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
+				<li><a href="#home">Главная</a></li>
+				<!--<li><a href="#focus">Каталог</a></li>-->
+				<li><a href="#works">Goldfilled галерея</a></li>
+				<li><a href="#aboutus">О GoldFilled</a></li>
+				<!--<li><a href="#team">О нас</a></li>
+				<li hidden="hidden"><a href="#features">Особенности</a></li>-->
+				<li><a href="#products">Продукция</a></li>
+				<!--<li><a href="#testimonials">Отзывы</a></li>-->
+				<li><a href="#contact">Контакты</a></li>
+				
+                
+           
+			</ul>
+			
+			</nav>
+		</div>
+	</div>
+	<!-- / END TOP BAR -->
+	
+	<!-- BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES -->
+	<div class="container">
+		<div class="cart_fix">
+                    <a data-toggle="modal" data-target="#cart">
+                        <ngcart-summary></ngcart-summary>
+                    </a>
+        </div>
+		<!-- HEADING -->
+		<h1 class="intro">Доступное качество по низким ценам</h1>
+		
+		<!-- CALL TO ACTION BUTTONS -->
+		<div class="buttons">
+			<a href="#works" class="btn btn-primary custom-button red-btn">Наши товары</a>
+			<a href="#products" class="btn btn-primary custom-button green-btn">Прямой заказ</a>
+		</div>
+		
+		<!-- 3 SHORT MESSAGE ABOUT COMPANY -->
+        <div class="row bottom-message-section">
+			<div class="col-lg-4 col-sm-4">
+				<div class="short-text">
+					<i class="icon-fontawesome-webfont-80"></i> Фиксированая цена
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<div class="short-text">
+					<i class="icon-diamond-1"></i> Качественная продукция
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<div class="short-text">
+					<i class="icon-fontawesome-webfont-7"></i> Удовлетворение гарантировано
+				</div>
+			</div>
+		</div>
+	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
+	
+</header> <!-- / END HOME SECTION  -->
+
+<!-- =========================
+   FOCUS SECTION      
+============================== -->
+
+<section class="focus" id="focus" hidden="hidden">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">Каталог</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6>
+			Мы магазин специализирующийся на качественной продукции из накатанного золота
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- 4 FOCUS BOXES -->
+	<div class="row">
+		
+		<!-- FIRST FOCUS BOXES -->
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<i class="pixeden pd-icon-monitor"></i> <!-- FOCUS ICON-->
+			</div>
+			<h5 class="yellow-border-bottom">Цепочки</h5> <!-- FOCUS HEADING -->
+			<p> <!-- FOCUS DESCRIPTION -->
+				 
+			</p>
+			<a href="#works" ng-click="search = 'Цепочка'; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+		</div>
+		<!-- / END FIRST FOCUS BOX. Other boxes has same format -->
+		
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<span class="pixeden pd-icon-camera"></span>
+			</div>
+			<h5 class="yellow-border-bottom">Браслеты</h5>
+			<p>
+				 
+			</p>
+			<a href="#works" ng-click="cat = 'Браслет'; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+		</div>
+		
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<i class="pixeden pd-icon-email-marketing"></i>
+			</div>
+			<h5 class="yellow-border-bottom" alt="Кулон">Кулоны</h5>
+			<p>
+			</p>
+			<a href="#works" ng-click="cat = 'Кулон'; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+		</div>
+		
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<i class="pixeden pd-icon-check"></i>
+			</div>
+			<h5 class="yellow-border-bottom">Серьги</h5>
+			<p>
+			</p>
+			<a href="#works" ng-click="cat = 'Серьги' ; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+
+		</div>
+		
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<i class="pixeden pd-icon-check"></i>
+			</div>
+			<h5 class="yellow-border-bottom">Кольца</h5>
+			<p>
+			</p>
+			<a href="#works" ng-click="cat = 'Кольцо'; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+
+		</div>
+		<div class="col-lg-2 col-sm-2 focus-box yellow">
+			<div class="service-icon">
+				<i class="pixeden pd-icon-check"></i>
+			</div>
+			<h5 class="yellow-border-bottom">Наборы</h5>
+			<p>
+			</p>
+			<a href="#works" ng-click="cat = 'Набор'; itemOnlist = 100" class="btn btn-primary custom-button yellow-btn">
+				Перейти </a>
+		</div>
+	</div>
+	<!-- / END 4 FOCUS BOXES -->
+	
+	<!-- OTHER FOCUSES 
+	<div class="other-focuses" hidden="">
+		<h5><span class="section-footer-title">Так же мы готовим для Вас комплекты</span></h5>
+	</div>
+	-->
+	<!-- OTHER FOCUS LIST 
+	<div class="other-focus-list" hidden="">
+		<ul>
+			<li><i class="icon-fontawesome-webfont-8"></i>WEB APPLICATIONS</li>
+			<li><i class="icon-fontawesome-webfont-267"></i>SEARCH ENGINE OPTIMIZATION</li>
+			<li><i class="icon-fontawesome-webfont-75"></i>CLOUD STORAGE</li>
+			<li><i class="icon-fontawesome-webfont-358"></i>Project Management</li>
+			<li><i class="icon-fontawesome-webfont-102"></i>IOS APP</li>
+			<li><i class="icon-fontawesome-webfont-328"></i>ANDROID APP</li>
+			<li><i class="icon-fontawesome-webfont-195"></i>WINDOWS APP</li>
+			<li><i class="icon-fontawesome-webfont-297"></i>UX STRATEGY</li>
+		</ul>
+	</div> 
+	-->
+	<!-- / END OTHER FOCUS LIST -->
+</div> <!-- / END CONTAINER -->
+</section>  <!-- / END FOCUS SECTION -->
+
+<!-- =========================
+   SEPARATOR ONE      
+============================== -->
+
+<section class="separator-one" hidden="hidden">
+<div class="color-overlay">
+	<h3 class="container text">
+	У нас есть более 100 довольных клиентов. Вы можете почитать, что они говорят о нас. </h3>
+	<div>
+		<a href="http://www.kidstaff.com.ua/userhistory-709108.html" target="_blank" class="btn btn-primary custom-button green-btn">ОТЗЫВЫ</a>
+	</div>
+</div>
+</section>  <!-- / END SEPARATOR -->
+
+
+<!-- =========================
+   WORKS SECTION      
+============================== -->
+
+<section class="works" id="works" >
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">Галерея</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6>
+			Мы разработали и предлагаем Вам множество удивительных продуктов. Просто взгляните.
+		</h6>
+		<!-- Navigations in catalog  start--> 
+		<nav class="navbar navbar-inverse bs-docs-nav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#catalog-list" ng-click="cat = ''">Все в GoldFilled</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse bs-navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav responsive-nav main-nav-list">
+        <li class="">
+          	<a href="#catalog-list" ng-click="cat = 'Кольцо'" data-toggle="tooltip" data-placement="up" title="Выбрать все кольца" >Кольца</a>
+          </li>
+          <li>
+          <a href="#catalog-list" ng-click="cat = 'Цепочка'" data-toggle="tooltip" data-placement="up"title="Выбрать все цепочьки">Цепочки</a>
+          </li>
+          <li>
+          <a href="#catalog-list" ng-click="cat = 'Браслет'" data-toggle="tooltip" data-placement="up" title="Выбрать все браслеты">Браслеты</a>
+          </li>
+          <li>
+          <a href="#catalog-list" ng-click="cat = 'Кулон'" data-toggle="tooltip" data-placement="up" title="Выбрать все Кулоны" >Кулоны</a>
+          </li>
+          <li>
+          <a href="#catalog-list" ng-click="cat = 'Серьги'" data-toggle="tooltip" data-placement="up" title="Выбрать все Кулоны" >Серьги</a>
+          </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input ng-model="search.name" type="text" class="form-control" placeholder="Найти по имени во всех товарах" style="width: 270px;">
+          <input class="form-control" ng-model="itemOnlist" type="number" ng-init="itemOnlist = 12" placeholder="Колличество товаров на странице" style="width: 270px;">
+        </div>
+        
+      </form>
+<!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- END Nav of catalog -->
+		        
+	</div>
+	<!-- / END SECTION HEADER -->
+	<div class="row projects" >
+			<div id="catalog-list"></div>
+
+		<div id="loader">
+		    <div class="loader-icon"></div>
+		</div>
+	<hr style="border-style: none;">
+	<div class="col-md-12" id="portfolio-list">
+		<!-- PORTFOLIO ITEMS-->
+		<ul class="cbp-rfgrid"  >
+		
+        <!-- PROJECT -->	
+        <li ng-repeat="item in products | filter: cat| filter: search | limitTo:itemOnlist; " ng-init="search = ''"> <!-- add code for length - {{sitem.length}} and sitem = (products | filter: search);-->
+        <a data-toggle="modal" data-target="#GD{{item.id+item.age}}" class="">
+	        <img ng-src="{{item.image1}}"  alt="project" width="380" height="380"/>
+			<div class="project-info">
+				<div class="project-details">
+					<h5 class="white-text red-border-bottom">
+					{{item.category}} {{item.name}} </h5>
+					<div class="details white-text">
+						<h3 class="price">{{ item.prices |  currency:"₴ ":2}}</h3>
+						<p ng-hide="{{item.accessibility}}" style="color: #FF6666; ">Ограничено</p>
+						<p ng-show="{{item.accessibility}}" style="color: #00CC99; ">Доступен</p>
+                <ngcart-addtocart 
+                			id="{{ item.id }}"
+                           name="{{ item.name }}"
+                           price="{{ item.prices  }}"
+                           data="item.image1"
+                           quantity="1"
+                           quantity-max="5">
+                     В корзину
+                </ngcart-addtocart>
+					</div>
+				</div>
+			</div>
+			</a>
+        </li>
+        <!-- / PROJECT -->
+        
+        
+		</ul>
+<!--
+		<div class="col-xs-4" ng-repeat="item in products" hidden="hidden">
+            <div class="thumbnail">
+                <h3>{{ item.name }}</h3>
+                <img ng-src="{{ item.image2 }}"></h3>
+                <p>{{ item.description }}</p>
+                <h3 class="price">{{ item.prices |  currency:"₴ ":2}}</h3>
+               
+                <ngcart-addtocart id="{{ item.id }}"
+                           name="{{ item.name }}"
+                           price="{{ item.name.length*10-.01  }}"
+                           data="item"
+                           quantity="1"
+                           quantity-max="30">
+                    В корзину
+                </ngcart-addtocart></div>
+        </div>
+-->
+
+	</div>
+	<!-- Modal -->
+	<div ng-repeat="item in products">
+<div class="modal fade" id="GD{{item.id+item.age}}" tabindex="-1" role="dialog" aria-labelledby="{{item.name}}" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModal{{item.name}}">{{item.name}} - {{item.category}}</h4>
+      </div>
+      <div class="modal-body">
+	      <div class="single-project">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<img ng-src="{{item.image2}}" alt="" class="project-image" width="480" height="480">
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<h3 class="dark-text">{{item.name}}</h3>
+				<div class="project-description">
+					 <p class="lead">{{item.description}}</p>
+				</div>
+				
+			</div>
+		</div>
+		<div class="row">
+		<div class="project-information col-lg-8 col-md-8">
+					<p class="lead">Изделия из накатанного золота Голдфилд (gold filled) отличаются гораздо большей долговечностью, по сравнению с позолоченными. Суть технологии заключается в нанесении золотого слоя на заготовку из другого металла при высокой температуре и под большим давлением, в результате чего слой золота надежно сплавляется с основой. Температура доходит до 900 градусов С, а давление до 170 атмосфер, толщина полученного золотого покрытия составляет десятки или сотни микрон. Т. е. слой золота при данном виде покрытия в сотни раз толще позолоты. Украшения из голдфилда выглядят и носятся как золотые, а по цене стоят дешевле золотых в десятки раз. Gold filled Голдфилд является коррозионно-устойчивым и что очень важно, антиаллергическим материалом.</p>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<img ng-src="{{item.image3}}"  alt="project" width="380" height="380"/>
+				</div>
+		</div>
+	</div>
+
+              </div>
+      <div class="modal-footer">
+	      <div class="row">
+         <div class="col-md-6">
+	         <a data-toggle="modal" data-target="#cart">У Вас в корзине:
+                <ngcart-summary></ngcart-summary>
+             </a>
+         </div>
+        <div class="col-md-6">
+        <ngcart-addtocart id="{{ item.id }}"
+                           name="{{ item.name }}"
+                           price="{{ item.prices}}"
+                           data="item"
+                           quantity="1"
+                           quantity-max="30">
+                    Добавить в козину
+       </ngcart-addtocart>
+        </div>
+	      </div>
+      </br>
+      <button type="button" class="btn btn-default btn-xs" data-dismiss="modal">Закрыть</button>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	<!-- END OF PORTFOLIO ITEMS-->
+</div>
+	
+	<!-- PROJECT DETAILS WILL BE LOADED HERE -->
+	<div id="loaded-content"></div>
+
+    <a id="back-button" class="red-btn" href="#"><i class="icon-fontawesome-webfont-27"></i> Go Back</a>
+	
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END WORKS SECTION -->
+
+
+<!-- =========================
+   ABOUT US SECTION   
+============================== -->
+
+<section class="about-us" id="aboutus">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">О GoldFilled</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text" title="We design and create high-quality jewelry that you looked at any abundance at the highest level.">
+				Мы придумываем и создаем качественные украшения, чтобы Вы при любом достатке выглядели на высшем уровне.
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- 3 COLUMNS OF ABOUT US-->
+	<div class="row">
+		
+		<!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
+		<div class="col-lg-4 col-md-4 column">
+			<div class="big-intro">
+				 Мы работаем для Вас с 2013 года.
+			</div>
+		</div>
+		
+		<!-- COLUMN 2 - BRIEF ABOUT THE COMPANY-->
+		<div class="col-lg-4 col-md-4 column">
+			<p>
+				 Изделия из накатанного золота (gold filled, годфилд) отличаются гораздо большей долговечностью, по сравнению с позолоченными. <br/><br/>
+				 Суть технологии заключается в нанесении золотого слоя на заготовку из другого металла при высокой температуре и под большим давлением, в результате чего слой золота надежно сплавляется с основой. Температура доходит до 900 градусов С, а давление до 170 атмосфер, толщина полученного золотого покрытия составляет десятки или сотни микрон. Т. е. слой золота при данном виде покрытия в сотни раз толще позолоты. <br/><br/>Украшения из голдфилда выглядят и носятся как золотые, а по цене стоят дешевле золотых в десятки раз. Gold filled (Голдфилд) является коррозионно-устойчивым и что очень важно, антиаллергическим материалом.
+			</p>
+		</div>
+		
+		<!-- COLUMN 1 - SKILSS-->
+		<div class="col-lg-4 col-md-4 column">
+			<ul class="skills">
+				
+				<!-- SKILL ONE -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="64" data-thickness=".2" class="skill1">
+					</div>
+					<h6>Подвески</h6>
+					<p>
+						Голдфилд (Goldfilled) Подвесок куплено у нас на сегодняшний день
+					</p>
+				</li>
+				
+				<!-- SKILL TWO -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="58" data-thickness=".2" class="skill2">
+					</div>
+					<h6>Кольца</h6>
+					<p> 
+						Кольца Goldfilled (Голдфилд) - Продано на сегодняшний день
+					</p>
+				</li>
+				
+				<!-- SKILL THREE -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="93" data-thickness=".2" class="skill3">
+					</div>
+					<h6>Браслеты</h6>
+					<p>
+						Голдфилд (Goldfilled) уже носят наши клиенты
+					</p>
+				</li>
+				
+				<!-- SKILL FOUR -->
+				<li class="skill">
+					<div class="skill-count">
+						<input type="text" value="100" data-thickness=".2" class="skill4">
+					</div>
+					<h6>Цепочки</h6>
+					<p>
+						Произведенные по технологии Goldfilled (Голдфилд) уже переданы по наследству
+					</p>
+				</li>
+				
+			</ul> 
+		</div> <!-- / END SKILLS COLUMN-->
+	</div> <!-- / END 3 COLUMNS OF ABOUT US-->
+
+	<!-- CLIENTS -->
+	<div class="our-clients" hidden="hidden">
+		<h5><span class="section-footer-title">OUR HAPPY CLIENTS</span></h5>
+	</div>
+	<!-- CLIENT LIST -->
+	<div class="client-list" hidden="hidden">
+		<ul>
+			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
+			<li><a href="#"><img src="images/clients/2.png" alt="Client 2"></a></li>
+			<li><a href="#"><img src="images/clients/3.png" alt="Client 3"></a></li>
+			<li><a href="#"><img src="images/clients/1.png" alt="Client 1"></a></li>
+			<li><a href="#"><img src="images/clients/4.png" alt="Client 4"></a></li>
+			<li><a href="#"><img src="images/clients/5.png" alt="Client 5"></a></li>
+			<li><a href="#"><img src="images/clients/6.png" alt="Client 6"></a></li>
+		</ul>
+	</div> <!-- / END CLIENT LIST -->
+
+</div> <!-- / END CONTAINER -->
+
+</section> <!-- END ABOUT US SECTION -->
+
+<!-- =========================
+   OUR TEAM SECTION   
+============================== -->
+
+<section class="our-team" id="team" hidden="hidden">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">О нас</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6>
+			Check our awesome team memebers who always work hard to provide quality products. 
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- TEAM MEMBERS -->
+	<div class="row">
+		<!-- MEMBER -->
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic"> 
+				<img src="images/team/pic1.jpg" alt=""> <!-- MEMBER PROFILE PIC -->
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text red-border-bottom">Ирина М.</h5>
+					<div class="position">
+						Директор
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
+						<li><a href=""><i class="icon-behance"></i></a></li>
+						<li><a href=""><i class="icon-dribbble"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- / END MEMBER -->
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/pic2.jpg" alt="">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text green-border-bottom">Вадим М.</h5>
+					<div class="position">
+						Web поддержка
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
+						<li><a href=""><i class="icon-behance"></i></a></li>
+						<li><a href=""><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/pic3.jpg" alt="">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text blue-border-bottom">Татьяна Г.</h5>
+					<div class="position">
+						Менеджер по работе с клиентами
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
+						<li><a href=""><i class="icon-behance"></i></a></li>
+						<li><a href=""><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="team-member">
+				<figure class="profile-pic">
+				<img src="images/team/pic4.jpg" alt="">
+				</figure>
+				<div class="member-details">
+					<h5 class="dark-text yellow-border-bottom">Николай Г.</h5>
+					<div class="position">
+						Art Director
+					</div>
+				</div>
+				<div class="social-icons">
+					<ul>
+						<li><a href=""><i class="icon-facebook"></i></a></li>
+						<li><a href=""><i class="icon-twitter-alt"></i></a></li>
+						<li><a href=""><i class="icon-behance"></i></a></li>
+						<li><a href=""><i class="icon-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<div class="details">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium sapiente voluptate nostrum ipsa tempora optio facilis beatae quo aut error corrupti officiis dolore accusantium rem rerum illum nulla sed quisquam.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div> <!-- / END TEAM MEMBER LIST -->
+	
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END OUR TEAM SECTION -->
+<!-- =========================
+   STATS              
+============================== -->
+
+<section class="stats">
+	<div class="container">
+	    <!-- STATS -->
+	    <div class="row">
+	        
+	        <!-- START COLUMN -->
+	        <div class="col-lg-3 col-sm-3">
+	            <div class="stat">
+	                <div class="icon-top red-text">
+	                    <i class="icon-design-graphic-tablet-streamline-tablet"></i>
+	                </div>
+	                <div class="stat-text">
+	                <h3 class="white-text red-border-bottom">398</h3>
+	                <h6>Выполнено заказов</h6>
+	                </div>
+	            </div>
+	        </div> <!-- / END COLUMN -->
+	        
+	        <!-- START COLUMN -->
+	        <div class="col-lg-3 col-sm-3">
+	            <div class="stat">
+	                <div class="icon-top green-text">
+	                    <i class="icon-man-people-streamline-user"></i>
+	                </div>
+	                <div class="stat-text">
+	                <h3 class="white-text green-border-bottom">297</h3>
+	                <h6>Счастливых покупателей</h6>
+	                </div>
+	            </div>
+	        </div> <!-- / END COLUMN -->
+	        
+	        <!-- START COLUMN -->
+	        <div class="col-lg-3 col-sm-3">
+	            <div class="stat">
+	                <div class="icon-top blue-text">
+	                    <i class="icon-email-mail-streamline"></i>
+	                </div>
+	                <div class="stat-text">
+	                <h3 class="white-text blue-border-bottom">1,236</h3>
+	                <h6>Почтовых переписок</h6>
+	                </div>
+	            </div>
+	        </div> <!-- / END COLUMN -->
+	        
+	        <!-- START COLUMN -->
+	        <div class="col-lg-3 col-sm-3">
+	            <div class="stat">
+	                <div class="icon-top yellow-text">
+	                    <i class="icon-diamond-1"></i>
+	                </div>
+	                <div class="stat-text">
+	                <h3 class="white-text yellow-border-bottom">446</h3>
+	                <h6>Продано товаров</h6>
+	                </div>
+	            </div>
+	        </div> <!-- / END COLUMN -->
+	    </div>
+</div>
+</section>  <!-- / END STATS -->
+
+
+
+<!-- =========================
+   PACKAGES SECTION   
+============================== -->
+
+<section class="packages" id="pricingtable" hidden="">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">Packages</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text">
+			We have 4 friendly packages for you. Check all the packages and choose the right one for you. 
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- PACKAGES -->
+	<div class="row">
+		
+		<!-- FIRST PACKAGE -->
+		<div class="col-lg-3 col-sm-3">
+			<div class="package">
+				<div class="package-header green-bg">
+					<h5>Basic</h5>
+				</div>
+				<div class="price dark-bg">
+					<div class="price-container">
+					<h4><span class="dollar-sign">$</span>15</h4><span class="price-meta">
+					    / mo
+					</span>
+					</div>
+				</div>
+				<ul>
+					<li><i class="icon-check"></i>100GB Storage</li>
+					<li><i class="icon-check"></i>All Themes</li>
+					<li><i class="icon-cancel"></i>Access to Tutorials</li>
+					<li><i class="icon-cancel"></i>Auto Backup</li>
+					<li><i class="icon-cancel"></i>Extended Security</li>
+				</ul>
+				<a href="#" class="btn btn-primary custom-button green-btn">
+				Sign Up </a>
+			</div>
+		</div> <!-- / END FIRST PACKAGE -->
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="package">
+				<div class="package-header blue-bg">
+					<h5>Standard</h5>
+				</div>
+				<div class="price dark-bg">
+					<div class="price-container">
+					<h4><span class="dollar-sign">$</span>21 </h4>
+					<span class="price-meta">/ Mo</span>
+					</div>
+				</div>
+				<ul>
+					<li><i class="icon-check"></i>100GB Storage</li>
+					<li><i class="icon-check"></i>All Themes</li>
+					<li><i class="icon-cancel"></i>Access to Tutorials</li>
+					<li><i class="icon-cancel"></i>Auto Backup</li>
+					<li><i class="icon-cancel"></i>Extended Security</li>
+				</ul>
+				<a href="#" class="btn btn-primary custom-button blue-btn">
+				Sign Up </a>
+			</div>
+		</div>
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="best-value">
+				<div class="package">
+					<div class="package-header red-bg">
+						<h4>Premium</h4>
+						<div class="meta-text">
+							Best Value
+						</div>
+					</div>
+					<div class="price dark-bg">
+						<h4><span class="dollar-sign">$</span>53</h4>
+						<span class="price-meta">/ mo</span>
+					</div>
+					<ul>
+						<li><i class="icon-check"></i>100GB Storage</li>
+						<li><i class="icon-check"></i>All Themes</li>
+						<li><i class="icon-cancel"></i>Access to Tutorials</li>
+						<li><i class="icon-cancel"></i>Auto Backup</li>
+						<li><i class="icon-cancel"></i>Extended Security</li>
+					</ul>
+					<a href="#" class="btn btn-primary custom-button red-btn">
+				Sign Up </a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-lg-3 col-sm-3">
+			<div class="package">
+				<div class="package-header yellow-bg">
+					<h5>Ultimate</h5>
+				</div>
+				<div class="price dark-bg">
+					<h4><span class="dollar-sign">$</span>99 </h4>
+					<span class="price-meta">/ mo</span>
+				</div>
+				<ul>
+					<li><i class="icon-check"></i>100GB Storage</li>
+					<li><i class="icon-check"></i>All Themes</li>
+					<li><i class="icon-cancel"></i>Access to Tutorials</li>
+					<li><i class="icon-cancel"></i>Auto Backup</li>
+					<li><i class="icon-cancel"></i>Extended Security</li>
+				</ul>
+				<a href="#" class="btn btn-primary custom-button yellow-btn">
+				Sign Up </a>
+			</div>
+		</div>
+	</div> <!-- / END PACKAGES -->
+	
+</div> <!--END CONTAINER  -->
+</section> 
+
+<!-- END PACKAGES SECTION -->
+
+<!-- =========================
+   FEATURES SECTION   
+============================== -->
+<section class="features" id="features" hidden="hidden">
+<div class="container">
+		
+		<!-- SECTION HEADER -->
+	<div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">Особенности</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6>
+			We design &amp; develop qaulity products to help small &amp; medium level business.
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- FEATURS -->
+	<div class="row">
+		
+		<!-- FEATURES COLUMN LEFT -->
+		<div class="col-md-6 col-sm-6">
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-heart-1"></i>
+				</div>
+				<h5>Design with Love</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-bulb"></i>
+				</div>
+				<h5>Creative Features</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-settings-1"></i>
+				</div>
+				<h5>Thousands of Options</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+		</div> <!-- / FEATURES COLUMN LEFT -->
+		
+		<!-- FEATURES COLUMN RIGHT -->
+		<div class="col-md-6 col-sm-6">
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-params"></i>
+				</div>
+				<h5>Easy to Customize</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-handle-streamline-vector"></i>
+				</div>
+				<h5>Clean Strategy</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+			
+			<!-- FEATURE -->
+			<div class="feature">
+				<div class="feature-icon">
+					<i class="icon-speech-streamline-talk-user"></i>
+				</div>
+				<h5>Awesome Support</h5>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<!-- / END FEATURE -->
+			
+		</div> <!-- / END FEATURES COLUMN RIGHT -->
+	</div> <!-- / END FEATURES -->
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END FEATURES SECTION -->
+
+<!-- =========================
+   PRODUCTS SECTION   
+============================== -->
+
+<section class="products" data-type="background" data-speed="1" id="products">
+<div class="color-overlay">
+	<div class="container">
+			
+    <!-- SECTION HEADER -->
+        <div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">Goldfilled Изделия Голдфилд</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text">
+			Мы проектируем и производим качественные изделия для ВАС
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+		
+		<!-- PRODUCTS -->
+		<div class="row" >
+            
+            <!-- SINGLE PRODUCT -->
+                <div class="col-md-3" ng-repeat="item in products" >
+				<div class="item">
+					<img ng-src="{{item.image1}}" width="100%" height="100%"/>
+					<div class="item-overlay">
+						
+					</div>
+					<div class="item-content">
+						<div class="item-top-content">
+							<div class="item-top-content-inner">
+								<div class="item-product">
+									<div class="item-top-title">
+										<h5>{{item.name}}</h5>  <!-- PRODUCT TITLE-->
+										<p class="subdescription">
+											 {{item.category}}
+										</p> 
+										<p ng-hide="{{item.accessibility}}" style="color: #FF6666;">Ограничено</p>
+						<p ng-show="{{item.accessibility}}" style="color: #00CC99;">Доступен</p>
+										<!-- PRODUCT DESCRIPTION-->
+									</div>
+								</div>
+								<div class="item-product-price">
+									<!-- PRICE -->
+									<span class="price-num green-text">{{item.prices}}</span> 
+									<!-- OLD PRICE START -->
+									<p class="subdescription">
+										Sale 25% {{item.prices*1.25 | currency:"₴ ":2}} 
+									</p>
+									<div class="old-price">
+									</div> <!-- END OLD PRICE -->
+								</div>
+							</div>
+						</div>
+						
+						<!-- ITEM HOVER CONTENT-->
+						<div class="item-add-content">
+							<div class="item-add-content-inner">
+								<div class="section">
+									<p>
+										{{item.name}} - {{item.category}}
+									</p>
+								</div>
+								<div class="section">
+									<a data-toggle="modal" data-target="#GD{{item.id+item.age}}" class="btn btn-primary btn-xs custom-button yellow-btn">Описание</a><br/>
+									<ngcart-addtocart 
+                			id="{{ item.id }}"
+                           name="{{ item.name }}"
+                           price="{{ item.prices  }}"
+                           data="item"
+                           quantity="1"
+                           quantity-max="5"><i class="fa fa-cart-plus"></i> 
+                     Добавить в корзину
+                </ngcart-addtocart>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- / END FIRST ITEM -->
+			
+			
+			</div> <!-- END FIRST ROW -->
+			
+			<!-- / END PRODUCTS LIST -->
+	</div> <!-- / END CONTAINER -->
+</div> <!-- / END COLOR OVERLAY -->
+</section> <!-- / END PRODUCTS SECTION -->
+
+<!-- =========================
+   NEWSETTER          
+============================== -->
+
+<section class="newsletter">
+<div class="container">
+	<h3 class="white-text">Оставайтесь в курсе</h3> <!-- NEWSLETTER SECTION HEADING -->
+	<div class="sub-heading white-text">
+		 Введите email для получения информации о новых поступлениях &amp; скидках для Вас
+	</div> 
+	
+	<!-- SUBSCRIPTION FORM -->
+	<form action="#" class="subscription" role="form">
+		<!--<input type="email" placeholder="Enter email" class="form-control input-box" hidden="hidden">-->
+		<a href="#contact" class="btn btn-primary custom-button red-btn">Получить</a>
+	</form>
+	<!-- / END SUBSCRIPTION FORM -->
+	
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END NEWSLETTER SECTION -->
+
+<!-- =========================
+   TESTIMONIAL        
+============================== -->
+
+<section class="testimonial" id="testimonials" hidden="hidden">
+<div class="container">
+	  
+	  <!-- SECTION HEADER -->
+        <div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">Отзывы о Goldfilled - Голдфилд</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text">
+			Мы работали с сотнями клиентов. Почитайте, что наши счастливые клиенты говорят о нас.		
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- CLIENT FEEDBACKS -->
+	<div class="row">
+		<div class="col-md-12">
+			<div id="client-feedbacks" class="owl-carousel owl-theme">
+				
+				<!-- SINGLE FEEDBACK BOX-->
+				<div class="feedback-box">
+					
+					<!-- MESSAGE OF THE CLIENT -->
+					<div class="message">
+						 “... очень порядочная и вежливая девушка,все оперативно и быстро! удачи вам и спасибо !!!”
+					</div>
+					
+					<!-- CLIENT INFORMATION -->
+					<div class="client">
+						<div class="quote red-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Liliya</a> 
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/250/avatar-249916-20150307003226.jpg" alt="" width="71" height="71">
+						</div>
+					</div> <!-- / END CLIENT INFORMATION-->
+				</div> <!-- / END SINGLE FEEDBACK BOX-->
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Спасибо большое за приятную сделку!!! За порядочность и оперативность!!! Рекомендую Всем как очень легкого продавца, и просто хорошего человека!!! Мир Вам :)))”
+					</div>
+					<div class="client">
+						<div class="quote green-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Katerina</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/895/avatar-895062-20150507212917.jpg" alt="" width="71" height="71">
+						</div>
+					</div>
+				</div>
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Ответственный продавец! Спасибо за оперативную отправку! очень выручили.
+Цепочка понравилась, красиво смотрится! Рекомендую отличного продавца!”
+					</div>
+					<div class="client">
+						<div class="quote blue-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Nastya</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="images/clients-pic/3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				
+				<div class="feedback-box">
+					
+					<!-- MESSAGE OF THE CLIENT -->
+					<div class="message">
+						 “... очень порядочная и вежливая девушка,все оперативно и быстро! удачи вам и спасибо !!!”
+					</div>
+					
+					<!-- CLIENT INFORMATION -->
+					<div class="client">
+						<div class="quote red-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Liliya</a> 
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/250/avatar-249916-20150307003226.jpg" alt="" width="71" height="71">
+						</div>
+					</div> <!-- / END CLIENT INFORMATION-->
+				</div> <!-- / END SINGLE FEEDBACK BOX-->
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Спасибо большое за приятную сделку!!! За порядочность и оперативность!!! Рекомендую Всем как очень легкого продавца, и просто хорошего человека!!! Мир Вам :)))”
+					</div>
+					<div class="client">
+						<div class="quote green-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Katerina</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/895/avatar-895062-20150507212917.jpg" alt="" width="71" height="71">
+						</div>
+					</div>
+				</div>
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Ответственный продавец! Спасибо за оперативную отправку! очень выручили.
+Цепочка понравилась, красиво смотрится! Рекомендую отличного продавца!”
+					</div>
+					<div class="client">
+						<div class="quote blue-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Nastya</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="images/clients-pic/3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="feedback-box">
+					
+					<!-- MESSAGE OF THE CLIENT -->
+					<div class="message">
+						 “... очень порядочная и вежливая девушка,все оперативно и быстро! удачи вам и спасибо !!!”
+					</div>
+					
+					<!-- CLIENT INFORMATION -->
+					<div class="client">
+						<div class="quote red-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Liliya</a> 
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/250/avatar-249916-20150307003226.jpg" alt="" width="71" height="71">
+						</div>
+					</div> <!-- / END CLIENT INFORMATION-->
+				</div> <!-- / END SINGLE FEEDBACK BOX-->
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Спасибо большое за приятную сделку!!! За порядочность и оперативность!!! Рекомендую Всем как очень легкого продавца, и просто хорошего человека!!! Мир Вам :)))”
+					</div>
+					<div class="client">
+						<div class="quote green-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Katerina</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="http://jpg.st.klumba.com/img/users/avatars/895/avatar-895062-20150507212917.jpg" alt="" width="71" height="71">
+						</div>
+					</div>
+				</div>
+				
+				<div class="feedback-box">
+					<div class="message">
+						 “Ответственный продавец! Спасибо за оперативную отправку! очень выручили.
+Цепочка понравилась, красиво смотрится! Рекомендую отличного продавца!”
+					</div>
+					<div class="client">
+						<div class="quote blue-text">
+							<i class="icon-fontawesome-webfont-294"></i>
+						</div>
+						<div class="client-info">
+							<a class="client-name" href="">Nastya</a>
+							<div class="client-company">
+								 Покупатель
+							</div>
+						</div>
+						<div class="client-image hidden-xs">
+							<img src="images/clients-pic/3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				
+			</div> <!-- / END FEEDBACKS-->
+		</div> <!-- / END COLUMN -->
+	</div> <!-- / END ROW -->
+	
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END TESTIMONIAL SECTION -->
+
+<!-- =========================
+   PURCHASE NOW       
+============================== -->
+
+<section class="purchase-now" hidden="hidden">
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<h3 class="white-text">
+			Hey, We're at the finishing line. Enjoyed the template? </h3>
+		</div>
+		<div class="col-md-3">
+			<a href="" class="btn btn-primary custom-button red-btn">Purchase Now</a>
+		</div>
+	</div>
+</div>
+</section> <!-- / END PURCHASE NOW SECTION-->
+
+<!-- =========================
+   CONTACT US         
+============================== -->
+
+<section class="contact-us" id="contact">
+<div class="container">
+	
+	<!-- SECTION HEADER -->
+        <div class="section-header">
+		
+		<!-- SECTION TITLE -->
+		<h2 class="white-text">У Вас есть вопрос?</h2>
+		
+		<!-- SHORT DESCRIPTION ABOUT THE SECTION -->
+		<h6 class="white-text">
+			Оставьте нам сообщение. Мы свяжемся с Вами в течение 24 часов.
+		</h6>
+	</div>
+	<!-- / END SECTION HEADER -->
+	
+	<!-- CONTACT FORM-->
+                <div ng-controller="ContactController" class="row panel-body">
+                    <form ng-submit="submit(contactform)" name="contactform" method="post" action="" class="form-horizontal" role="form">
+	                    <div class="">
+                        <div class="form-group col-lg-4" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+                            <div class="">
+                                <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" placeholder="Ваше имя" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+                        <div class="form-group col-lg-3">
+                            <div class="">
+                                <input ng-model="formData.inputTel" type="number" class="form-control" id="inputTel" name="inputTel" placeholder="Контактный телефон" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-1"></div>
+
+                        <div class="form-group col-lg-3">
+                            <div class="">
+                                <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Ваш Email" required>
+                            </div>
+                        </div>
+	                    </div>
+	                    
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input ng-model="formData.inputSubject" type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Тема" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+                            <div class="col-lg-12">
+                                <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Ваше сообщение..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button type="submit" class="btn btn-default" ng-disabled="submitButtonDisabled">
+                                    Отправить
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p ng-class="result" style="padding: 15px; margin: 0;">{{ resultMessage }}</p>
+                </div>
+	<!-- / END CONTACT FORM-->
+</div> <!-- / END CONTAINER -->
+</section> <!-- / END CONTACT US SECTION-->
+
+<!-- =========================
+   FOOTER             
+============================== -->
+
+<footer>
+<div class="container">
+	
+	<!-- COMPANY ADDRESS-->
+	<div class="col-md-5 company-details">
+		<div class="icon-top red-text">
+		    <i class="icon-fontawesome-webfont-302"></i>
+		</div>
+		Киев - Вся Украина
+	</div>
+	
+	<!-- COMPANY EMAIL-->
+	<div class="col-md-2 company-details">
+		<div class="icon-top green-text">
+		<i class="icon-fontawesome-webfont-329"></i>
+		</div>
+		 contact@goldfilled.com.ua
+	</div>
+	
+	<!-- COMPANY PHONE NUMBER -->
+	<div class="col-md-2 company-details" hidden="hidden">
+		<div class="icon-top blue-text">
+		<i class="icon-fontawesome-webfont-101"></i>
+		</div>
+		+380 93 326 74 78
+	</div>
+	
+	<!-- SOCIAL ICON AND COPYRIGHT -->
+	<div class="col-lg-3 col-sm-3 copyright" hidden="">
+		<ul class="social">
+			<li><a href=""><i class="icon-facebook"></i></a></li>
+			<li><a href=""><i class="icon-twitter-alt"></i></a></li>
+			<li><a href=""><i class="icon-linkedin"></i></a></li>
+			<li><a href=""><i class="icon-behance"></i></a></li>
+			<li><a href=""><i class="icon-dribbble"></i></a></li>
+		</ul>
+		 ©2015 ArtMakarenko LLC
+	</div>
+</div> <!-- / END CONTAINER -->
+</footer> <!-- / END FOOOTER  -->
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="width: 70%;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Ваша корзина</h4>
+      </div>
+      <div class="modal-body" ng-controller="Cart">
+       <div class="row">
+	           <div class="col-md-12">
+        <ngcart-cart></ngcart-cart>
+        
+    </div>
+
+</div>
+
+
+       </div>
+      <div class="modal-footer">
+	      <form name="sentMessage" id="contactForm" novalidate>
+
+                        <h2>Получите свой GoldFilled=)</h2>
+                        <p>Пожалуйста заполните форму для заказа</p>
+
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name" class="sr-only control-label">Имя</label>
+                                <input type="text" class="form-control input-lg" placeholder="Имя" id="orderName" required data-validation-required-message="Пожалуйста введите Ваше имя." ng-model="orderName">
+                                <span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-lg-6 floating-label-form-group controls no-pad-right">
+                                <label for="email" class="sr-only control-label">Email</label>
+                                <input type="email" class="form-control input-lg" placeholder="Email" id="orderEmail" required data-validation-required-message="Пожалуйста введите Ваш email address." ng-model="orderEmail">
+                                <span class="help-block text-danger"></span>
+                            </div>
+                            <div class="form-group col-lg-6 floating-label-form-group controls">
+                                <label for="phone" class="sr-only control-label">Ваш Phone</label>
+                                <input type="tel" class="form-control input-lg" placeholder="Phone" id="orderPhone" required data-validation-required-message="Пожалуйста введите Ваш phone." ng-model="orderPhone">
+                                <span class="help-block text-danger"></span>
+                            </div>
+                        </div>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+								<button type="submit" class="btn btn-lg btn-primary btn-block">Заказать</button>
+                             </div>
+                        </div>
+                    </form>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+<!-- 		<ngcart-checkout service="http" settings="{ url:'orderform.php' }"></ngcart-checkout> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JQUERY -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- Angular JS -->
+<script src="js/angular.js" type="text/javascript"></script>
+<!-- Store JS -->
+<script src="js/ngCart.js" type="text/javascript"></script>
+<script src="store/app.js" type="text/javascript"></script>
+<!-- SCRIPTS -->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.knob.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.vegas.min.js"></script>
+<script src="js/zerif.js"></script>
+<script src="js/form.js"></script>
+<!-- Google script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33287613-1', 'auto');
+  ga('send', 'pageview');
+ 
+  
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter30431812 = new Ya.Metrika({id:30431812,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/30431812" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
